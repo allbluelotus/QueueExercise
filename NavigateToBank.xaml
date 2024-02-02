@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>822,2911</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>822,2702</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>NavigateToBank_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -102,19 +102,19 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="NavigateToBank" sap:VirtualizedContainerService.HintSize="546,2846" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="NavigateToBank" sap:VirtualizedContainerService.HintSize="546,2637" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: ACME System 1 - Dashboard" sap:VirtualizedContainerService.HintSize="484,2735" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="66802b31-257b-4660-81d4-aaa32d6abd7d" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: ACME System 1 - Dashboard" sap:VirtualizedContainerService.HintSize="484,2526" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="66802b31-257b-4660-81d4-aaa32d6abd7d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2516" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2307" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="in_FirstName" />
               <Variable x:TypeArguments="x:String" Name="in_LastName" />
@@ -216,7 +216,6 @@
                 <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="339, 907, 107, 37" CvTextArea="351, 918, 83, 14" CvTextArgument="Add Account" CvType="Button" DesignTimeRectangle="341, 909, 105, 34" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Add Account'" FullSelectorArgument="&lt;webctrl id='buttonScoreCard' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='buttonScoreCard' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Add Account' check:innerText='Add Account' /&gt;" Guid="1db91b63-68eb-4c3e-864b-7ae44bf79def" InformativeScreenshot="a7b9e2d016baae43ca0fe94ade7bcf78.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NGetText DisplayName="Get Text" sap:VirtualizedContainerService.HintSize="388,169" sap2010:WorkflowViewState.IdRef="NGetText_2" Version="V3" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
